@@ -3,12 +3,19 @@
 	<head>
 		<title>Vivify Web Design</title>   
 		<link rel="shortcut icon" href="images/vivifyfavicon.png">
-		<link rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" href="css/animate.css"/>
 		<link rel="stylesheet" href="css/colorbox.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
 	</head>
 
 	<body>    
+<<<<<<< HEAD
+		<div class="container animated fadeIn">
+	    	<div id="center" class="text-center">
+	        	<img id="vivify-logo" src="images/vivifymed.png"/>
+	        </div>
+=======
 		<div class="wrapper">
 			<div class="header animated fadeIn">
 			</div>
@@ -41,57 +48,41 @@
 			            </div>
 			        </div>
 		  			-->
+>>>>>>> master
 
-		            <div id="title">
-		            	<h2>Our Projects</h2>
-		            	<hr>
-		            </div>
-		            <div id="design">
-			            <div id="photobox2">
-			                <div class="image2" id="gradient" href="images/design_gradient.jpg"></div>
-			                <div class="image2" id="DTApp" href=images/design_DTApp.jpg></div>
-			                <div class="image2" id="portfolio" href="images/design_portfolio.jpg"></div>
-			            </div>
-		                
-			            <div id="photobox2">
-			                <div class="image2" id="devices" href="images/design_devices.jpg"></div>
-			                <div class="image2" id="crest" href="images/design_crest.jpg"></div>
-			                <div class="image2" id="booklet" href="images/IATSU_CS.png"></div>
-			            </div>
-		        	</div>
-		    	</div>
+            <div id="title" class="text-center">
+            	<h3>Our Projects</h2>
+            	<hr>
+            </div>
+            <div class="photobox row">
+                <img class="col-md-4" src="images/design_gradient.jpg" href="images/design_gradient.jpg"/>
+                <img class="col-md-4" src="images/design_DTApp.jpg" href="images/design_DTApp.jpg"/>
+                <img class="col-md-4" src="images/design_portfolio.jpg" href="images/design_portfolio.jpg"/>
+        	</div>
+            
+            <div class="photobox row">
+                <img class="col-md-4" src="images/design_devices.jpg" href="images/design_devices.jpg"/>
+                <img class="col-md-4" src="images/LT1.jpg" href="images/LT1.jpg"/>
+                <img class="col-md-4" src="images/LT2.jpg" href="images/LT2.jpg"/>
+            </div>
+	    </div>
 
-		        <div id="footer">
-		          
-		        </div>
-		        	           
-		    </div>
-		            
-		        
-		</div>
-		    
-		    
-		<!--
 		<div class="footer">
-		    <div class="copyright">
-		    Copyright 2016 Tristan Wong All Rights Reserved
+		    <div class="copyright text-center">
+		    	&copy; 2016 Vivify Web Design All Rights Reserved
 		    </div>
-		    
 		</div>
-		-->
-		    
+
 		<script src="js/jquery-3.0.0.min.js"></script>
 		<script src="js/jAnimate.min.js"></script>
 		<script src="js/jquery.colorbox-min.js"></script>
 		<script src="js/display.js"></script>
 		<script>
 		    jQuery(document).ready(function () {
-		        jQuery('div.image').colorbox({ opacity:0.5 , height: '75%', rel:'group1' });
-		        jQuery('div.image2').colorbox({ opacity:0.5 , height: '75%', rel:'group2' });
-		        jQuery('div.image3').colorbox({ opacity:0.5 , height: '75%', rel:'group3' });
-
+		        jQuery('.photobox .col-md-4').colorbox({ opacity:0.5 , width: '75%', rel:'group2' });
 		    });
 		</script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 
 </html>
