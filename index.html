@@ -1,1 +1,97 @@
-Hello world
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vivify Web Design</title>   
+		<link rel="shortcut icon" href="images/vivifyfavicon.png">
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/animate.css"/>
+		<link rel="stylesheet" href="css/colorbox.css"/>
+	</head>
+
+	<body>    
+		<div class="wrapper">
+			<div class="header animated fadeIn">
+			</div>
+
+			<div class="content">
+		    	<div id="top">      
+			        <div id="center">
+			            <img id="vivify-logo" src="images/vivifymed.png"/>
+			        </div>
+
+			        <!--
+			        <div id="title">
+			        	<h2>Our Projects</h2>
+			        	<hr>
+			        </div>
+			        <div id="photos">
+			            <div id="photobox">
+			               <div class="image" id="water" href="images/water.JPG"></div>
+			                <div class="image" id="victoria" href="images/victoria.jpg"></div>
+			                <div class="image" id="flower" href="images/flower.jpg"></div>
+			                <div class="image" id="cultus" href="images/cultus.jpg"></div>
+			                <div class="image" id="clock" href="images/clock.JPG"></div>
+			                </div>
+			            <div id="photobox">
+			                <div class="image" id="body" href="images/body.jpg"></div>
+			                <div class="image" id="portrait" href="images/portrait.jpg"></div>
+			                <div class="image" id="comp1" href="images/comp1.jpg"></div>
+			                <div class="image" id="candid" href="images/candid.jpg"></div>
+			                <div class="image" id="comp2" href="images/comp2.jpg"></div>
+			            </div>
+			        </div>
+		  			-->
+
+		            <div id="title">
+		            	<h2>Our Projects</h2>
+		            	<hr>
+		            </div>
+		            <div id="design">
+			            <div id="photobox2">
+			                <div class="image2" id="gradient" href="images/design_gradient.jpg"></div>
+			                <div class="image2" id="DTApp" href=images/design_DTApp.jpg></div>
+			                <div class="image2" id="portfolio" href="images/design_portfolio.jpg"></div>
+			            </div>
+		                
+			            <div id="photobox2">
+			                <div class="image2" id="devices" href="images/design_devices.jpg"></div>
+			                <div class="image2" id="crest" href="images/design_crest.jpg"></div>
+			                <div class="image2" id="booklet" href="images/IATSU_CS.png"></div>
+			            </div>
+		        	</div>
+		    	</div>
+
+		        <div id="footer">
+		          
+		        </div>
+		        	           
+		    </div>
+		            
+		        
+		</div>
+		    
+		    
+		<!--
+		<div class="footer">
+		    <div class="copyright">
+		    Copyright 2016 Tristan Wong All Rights Reserved
+		    </div>
+		    
+		</div>
+		-->
+		    
+		<script src="js/jquery-3.0.0.min.js"></script>
+		<script src="js/jAnimate.min.js"></script>
+		<script src="js/jquery.colorbox-min.js"></script>
+		<script src="js/display.js"></script>
+		<script>
+		    jQuery(document).ready(function () {
+		        jQuery('div.image').colorbox({ opacity:0.5 , height: '75%', rel:'group1' });
+		        jQuery('div.image2').colorbox({ opacity:0.5 , height: '75%', rel:'group2' });
+		        jQuery('div.image3').colorbox({ opacity:0.5 , height: '75%', rel:'group3' });
+
+		    });
+		</script>
+	</body>
+
+</html>
