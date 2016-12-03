@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Segoe UI Light;
+  src: url("https://vivifywebdesign.github.io/fonts/SegoeUILight.ttf");
+}
+
+@font-face {
+  font-family: Segoe UI Semibold;
+  src: url("https://vivifywebdesign.github.io/fonts/SegoeUISemibold.ttf");
+}
+
 html {
     background: #FDFDFD;
 }
@@ -7,7 +17,11 @@ h2,
 h3,
 h4,
 div {
-	font-family: "Segoe UI light", sans-serif;
+	font-family: Segoe UI Light, sans-serif;
+}
+
+p {
+	font-size: 1.25em;
 }
 
 hr{
@@ -18,7 +32,13 @@ hr{
     width: 150px;
 }
 
+#envelope {
+  width: 50px;
+  height: 50px;
+}
+
 .copyright {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
